@@ -1,3 +1,47 @@
 .header{
-    background-color: #4B6587;
+    background: linear-gradient(to bottom right,
+        #4B6587 0%,
+        #4B6587 50%,
+        #F0E5CF 50%,
+        #F0E5CF 100%
+
+    );
+    
+}
+
+.house{
+    margin-top: 200px;
+    height: 600px;
+    width: 200px;
+}
+
+.picbody{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border: 15px solid #F0E5CF;
+
+}
+
+.picbody1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    border: 15px solid #F0E5CF;
+    z-index: 0;
+}
+
+.socmed{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.socmedicons:hover{
+    text-decoration: underline;
+    color: #4B6587;
+}
+
+.socmedicons:not(:hover){
+    text-decoration: none;
+    color: white;
 }

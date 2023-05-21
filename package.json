@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Dous13/NecesitoRealEstate.github.io#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5"
   }
 }
